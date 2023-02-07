@@ -77,7 +77,7 @@ a{
 .pink{
     width: 700px;
     height: 300px;
-    border: 1px black dashed;
+    /* border: 1px black dashed; */
 }
 .title{
     text-align: center;
@@ -132,16 +132,6 @@ a{
     font-size: 2.5rem;
 
 }
-.title-four-square{
-    text-align: center;
-    font-size: 2rem;
-}
-.description-four-square{
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 50px;
-    
-}
 .white{
     background-color: white;
     height: 400px;
@@ -164,6 +154,10 @@ a{
     justify-content: center;
     align-items: center;
 
+}
+.title-four-square{
+    padding-top: 30px;
+    text-align: center;
 }
 
 /* Square */
@@ -200,48 +194,66 @@ a{
     line-height: 25px;
 }
 
-.green{
-    background-image: url(../img/item4-big.svg);
+.description-four-square{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.star{
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    height: 120px;
+    background-repeat: no-repeat;
+}
+
+/* .green{
+    background-color: green;
     height: 700px;
     width: 100%;
-    margin-bottom: 40px;
-    background-size: cover;
-    
-}
+} */
 
 /* .square{
     border:  1px black dashed;
 }  */
 /* ending main */
 
+
+
 /* footer */
 .first-footer{
-    background-color: rgba(0, 0, 0, 0.697);
-    height: 400px;
+    background-color: #23272A;
+    height: 500px;
     display: flex;
     justify-content: center;
 
 }
-
+.italy{
+    width: 20px;
+}
+.italiano{
+    color: white;
+}
 .margine{
     margin-top:5px;
 
 }
 
 .pinkrosa{
-    height: 350px;
+    height: 450px;
     width: 40%;
-    background-color: pink;
+    /* background-color: pink; */
 }
 
 .bluetto{
-    height: 350px;
+    height: 450px;
     width: 15%;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 
 .second-footer{
-   background-color: rgba(0, 0, 0, 0.697);
+   background-color: #23272A;
     height: 80px;
     width: 100%;
     border-bottom: 1px solid white;
@@ -263,4 +275,22 @@ a{
     padding: 5px;
     background-color: rgb(190, 193, 196);
     border: 1px black dashed;
+}
+
+.title-footer{
+    color:#7289DB ;
+}
+
+.footer-list a{
+    color: #E9F0E9;
+}
+
+
+.footer-list{
+    text-align: start;
+    line-height: 25px;
+}
+
+.icon-footer{
+color: white;
 }

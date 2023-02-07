@@ -6,22 +6,26 @@
 img{
     max-width: 100%;
 }
+body{
+    font-family:Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
 /* Header */
 .flex-header{
     display: flex;
-    background-color: lightblue;
+    background-color: #255ee9;
     justify-content: center;
 }
 .nav-flex{
     width: 60%;
-    background-color: orange;
+    background-color: #255ee9;
     display: flex;
     margin-top: 10px;
     margin-bottom: 10px
 }
-nav > div{
+/* nav > div{
     border: 1px black dashed;
-}
+} */
 .link a {
     color: white;
     text-decoration: none;
@@ -47,22 +51,69 @@ a{
     display: flex;
     justify-content: flex-end;
 }
+.login a {
+    text-decoration: none;
+    color: black;
+}
+.button-head{
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 15px;
+    background-color: white;
+}
 /* /header */
 
 
 /* FIRSTSECTION */
 .header-section {
-    background-color: darkblue;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 400px;
+    height: 500px;
 }
 .pink{
     width: 700px;
-    background-color: rgb(183, 117, 128);
     height: 300px;
     border: 1px black dashed;
+}
+.title{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+.description{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: 30px;
+    line-height: 30px;
+
+}
+.flex-botton{
+    display: flex;
+    height: 40%;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.button-mac{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 10px;
+    color: black;
+
+}
+.button-brosweare{
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    color: white;
+
 }
 /* ENDFIRSTSECTION */
 
@@ -75,6 +126,21 @@ a{
 
 .rv{
     flex-direction: row-reverse;
+}
+.title-two-square{
+    padding-top: 60px;
+    font-size: 2.5rem;
+
+}
+.title-four-square{
+    text-align: center;
+    font-size: 2rem;
+}
+.description-four-square{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    
 }
 .white{
     background-color: white;
@@ -101,26 +167,51 @@ a{
 }
 
 /* Square */
-.blue{
+.blue-one{
     height: 350px;
     width: 60%;
-    background-color: blue;
+    background-image: url(../img/item1.svg);
+    background-size: cover;
 }
+.blue-two{
+    height: 350px;
+    width: 60%;
+    background-image: url(../img/item2.svg);
+    background-size: cover;
+}
+.blue-three{
+    height: 350px;
+    width: 60%;
+    background-image: url(../img/item3.svg);
+    background-size: cover;
+}
+
 .light-pink{
     height: 350px;
     width: 40%;
-    background-color: lightpink;
+    background-color: white;
+    font-size: 1.5rem;
 
 }
+.description-square{
+    font-size: .9rem;
+    color: #2A2B3D;
+    padding-top:50px;
+    line-height: 25px;
+}
+
 .green{
-    background-color: green;
+    background-image: url(../img/item4-big.svg);
     height: 700px;
     width: 100%;
+    margin-bottom: 40px;
+    background-size: cover;
+    
 }
 
-.square{
+/* .square{
     border:  1px black dashed;
-} 
+}  */
 /* ending main */
 
 /* footer */

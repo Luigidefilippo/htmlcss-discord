@@ -264,7 +264,7 @@ a{
 }
 .footer-navigation {
     width: 60%;
-    background-color: rgb(75, 160, 160);
+    background-color: #23272A;
     height: 60px;
     display: flex;
     justify-content: space-between;
@@ -273,8 +273,10 @@ a{
 
 .button {
     padding: 5px;
-    background-color: rgb(190, 193, 196);
-    border: 1px black dashed;
+    background-color: #23272A;
+    border: none;
+    /* background-color: rgb(190, 193, 196);
+    border: 1px black dashed; */
 }
 
 .title-footer{
@@ -294,3 +296,12 @@ a{
 .icon-footer{
 color: white;
 }
+.button-registrati{
+
+    background-color: #7289DA;
+    border: 1px solid #7289DA;
+    border-radius: 30px;
+    padding: 10px;
+    color: white;
+}
+
